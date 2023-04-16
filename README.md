@@ -28,4 +28,4 @@ rapidjson (https://github.com/Tencent/rapidjson)
 
 string_view_lite (https://github.com/martinmoene/string-view-lite)
 
-The repository contains a solution for Visual Studio 2019 and CMakeLists.txt, in case you want to use a different IDE. The library was tested only on Windows, but apparently it works on linux too (if you find the curl library yourself).
+The repository contains a solution for Visual Studio 2019 and CMakeLists.txt, in case you want to use a different IDE. The library was tested only on Windows and Linux (Fedora 34)
