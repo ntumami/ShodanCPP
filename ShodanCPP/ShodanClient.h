@@ -70,7 +70,7 @@ private:
 
 public:
 	//Constructor
-	ShodanClient() : api_url("https://api.shodan.io"), stream_api_url("https://stream.shodan.io"), exploits_api_url("https://exploits.shodan.io")
+	ShodanClient() : api_url("https://api.shodan.io"), stream_api_url("https://stream.shodan.io"), exploits_api_url("https://exploits.shodan.io"), api_key("")
 	{
 		buffer.reserve(100);
 
