@@ -31,7 +31,7 @@ target_link_libraries(ShodanCPP rt)
 target_link_libraries(ShodanCPP resolv)
 endif()
 
-option(BUILD_DEMO "Build demo executable with library usage examples" ON)
+option(BUILD_DEMO "Build demo executable with library usage examples" OFF)
 IF (BUILD_DEMO)
 add_executable(ShodanCPPDemo ShodanCPP/demo.cpp)
 target_link_libraries(ShodanCPPDemo PUBLIC ShodanCPP)
